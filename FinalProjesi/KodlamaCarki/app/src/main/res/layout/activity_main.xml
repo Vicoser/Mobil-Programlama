@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_NasilOynanir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#FF9800"
+        android:text="NASIL OYNANIR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_LiderlikTablosu" />
+
+    <ImageView
+        android:id="@+id/imageViewCark"
+        android:layout_width="322dp"
+        android:layout_height="340dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="45dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewUygulamaismi"
+        app:srcCompat="@drawable/cark_resmi_temiz" />
+
+    <Button
+        android:id="@+id/button_CarkiCevir"
+        android:layout_width="165dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:text="ÇARKI ÇEVİR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCark" />
+
+    <Button
+        android:id="@+id/button_LiderlikTablosu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#8BC34A"
+        android:text="LİDERLİK TABLOSU"
+        android:textColorLink="#3CA83F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_CarkiCevir" />
+
+    <TextView
+        android:id="@+id/textViewUygulamaismi"
+        android:layout_width="395dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="8dp"
+        android:rotation="0"
+        android:rotationX="0"
+        android:text="KODLAMA ÇARKI"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#040303"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
