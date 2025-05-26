@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "231479253100",
+    "project_id": "fir-resimuygulama",
+    "storage_bucket": "fir-resimuygulama.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:231479253100:android:3e6f42dd621a52f9d36049",
+        "android_client_info": {
+          "package_name": "com.example.firebaseresimuygulamaodev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-CO5JlaYNoKmB0st-jLbVmyKyVIiX54Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
