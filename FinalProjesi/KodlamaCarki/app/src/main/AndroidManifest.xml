@@ -13,6 +13,9 @@
         android:theme="@style/Theme.KodlamaCarki"
         tools:targetApi="31">
         <activity
+            android:name=".SoruActivity"
+            android:exported="false" />
+        <activity
             android:name=".NasilOynanirActivity"
             android:exported="false" />
         <activity

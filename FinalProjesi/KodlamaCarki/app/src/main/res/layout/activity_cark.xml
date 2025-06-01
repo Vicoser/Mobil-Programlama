@@ -1,26 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFEB3B"
-    tools:context=".CarkActivity">
+    android:background="#F6DDB4">
 
-    <com.bluehomestudio.luckywheel.LuckyWheel
-        android:id="@+id/luckyWheel"
+
+    <com.example.kodlamacarki.CustomWheelView
+        android:id="@+id/wheelView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/needle"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="156dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/needle"
+        android:rotation="0" />
+    <Button
+        android:id="@+id/btnAnaMenuDon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        app:background_color="@color/purple_200"
-        app:image_padding="10dp" />
+        android:text="Ana Menüye Dön"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"/>
 
-    <Button
-        android:id="@+id/btn_CarkCevirEkran"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="ÇARKI ÇEVİR" />
+
 
 </RelativeLayout>
